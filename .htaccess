@@ -1,0 +1,18 @@
+RewriteEngine On
+RewriteBase /ehnet/
+
+# Kui fail või kataloog ei eksisteeri, suuna index.php'le
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Ilusad URLid: /postitused/post2
+RewriteRule ^postitused/([a-zA-Z0-9\-]+)$ index.php?page=$1 [L]
+
+# /blogi -> blog
+RewriteRule ^blogi$ index.php?page=blog [L]
+
+# /kontakt -> contact
+RewriteRule ^kontakt$ index.php?page=contact [L]
+
+# Avaleht
+RewriteRule ^$ index.php?page=homepage [L]
