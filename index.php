@@ -115,12 +115,15 @@ $currentHeader = $headers[$page];
     </div>
 </header>
 
-    <!-- Lehe sisu -->
-    <div class="container">
-        <?php include("$page.html"); ?>
-    </div>
+  <!-- Lehe sisu -->
+<div class="container">
+    <?php include("$page.html"); ?>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Jalus -->
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/ehnet/footer.html'; ?>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="..."></script>
 
 </body>
 </html>
