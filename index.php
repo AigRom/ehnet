@@ -36,8 +36,8 @@ $headers = [
     ],
 
     'post1' => [
-        'title' => 'Jätkusuutlik renoveerimine: Mis see on?',
-        'subtitle' => 'Jätkusuutlik renoveerimine ei tähenda ainult uusi aknaid või energiasäästlikke seadmeid – see on mõtteviis, mis arvestab looduse, inimeste ja tuleviku vajadustega.',
+        'title' => 'Jätkusuutlik renoveerimine:',
+        'subtitle' => 'See on mõtteviis, mis arvestab looduse, inimeste ja tuleviku vajadustega.',
         'date' => kuupaevEestiKeeles(filemtime("post1.html")),
         'image' => '/ehnet/img/taust_post1.png',
 
@@ -45,7 +45,7 @@ $headers = [
 
     
     'post2' => [
-        'title' => 'Kuidasn leida soodsalt ehitusmaterjale?',
+        'title' => 'Kuidas leida soodsalt ehitusmaterjale?',
         'subtitle' => 'Ehitusmaterjalid ei pea olema kallid – avasta nipid ja kohad, kust neid leida taskukohaselt või isegi tasuta.',
         'date' => kuupaevEestiKeeles(filemtime("post2.html")),
         'image' => '/ehnet/img/taust_post2.png',
